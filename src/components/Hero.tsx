@@ -20,7 +20,7 @@ const Hero = ({ onOrderClick }: HeroProps) => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-xs uppercase tracking-widest text-muted-foreground font-medium">
-              Brigadeiros - Tortas - Salgados
+              Doces - Empadas - Salgados
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
               Agradando seu paladar

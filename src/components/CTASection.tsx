@@ -15,7 +15,7 @@ const CTASection = ({ onOrderClick }: CTASectionProps) => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-8 space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Solicite seu Orçamento Personalizado
+              Solicite seu Orçamento
             </h2>
           </div>
 
@@ -24,8 +24,8 @@ const CTASection = ({ onOrderClick }: CTASectionProps) => {
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" aria-hidden="true" />
                 <div>
-                  <p className="font-medium text-foreground">Eventos e Encomendas</p>
-                  <p className="text-sm text-muted-foreground">Mínimo 100 unidades</p>
+                  <p className="font-medium text-foreground">Encomendas de congelados</p>
+                  <p className="text-sm text-muted-foreground">Mínimo 15 unidades</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -45,9 +45,10 @@ const CTASection = ({ onOrderClick }: CTASectionProps) => {
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" aria-hidden="true" />
                 <div>
-                  <p className="font-medium text-foreground">Descontos</p>
+                  <p className="font-medium text-foreground">Aceitamos</p>
                   <p className="text-sm text-muted-foreground">
-                    Condições especiais para pagamento à vista
+                    Crédito, Débito e Pix
+                    <p>(Acrescimo em pagamentos em crédito)</p>
                   </p>
                 </div>
               </div>
@@ -56,7 +57,7 @@ const CTASection = ({ onOrderClick }: CTASectionProps) => {
             <div className="pt-4 text-center">
               {totalItems === 0 ? (
                 <p className="text-muted-foreground mb-4">
-                  Adicione brigadeiros ao seu orçamento para continuar
+                  Adicione algum item ao seu orçamento para continuar
                 </p>
               ) : (
                 <p className="text-foreground font-medium mb-4">

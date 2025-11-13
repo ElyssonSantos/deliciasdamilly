@@ -27,14 +27,6 @@ const Footer = () => {
                 <Phone className="h-4 w-4" aria-hidden="true" />
                 <span>(79) 9946-3701</span>
               </a>
-              <a
-                href="mailto:contato@deliciasdamilly.com"
-                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
-                aria-label="Enviar email para contato@deliciasdamilly.com"
-              >
-                <Mail className="h-4 w-4" aria-hidden="true" />
-                <span>contato@deliciasdamilly.com</span>
-              </a>
               <div className="flex items-center gap-2 text-primary-foreground/80">
                 <MapPin className="h-4 w-4" aria-hidden="true" />
                 <span>Aracaju, SE</span>
@@ -59,8 +51,7 @@ const Footer = () => {
                 <Clock className="h-4 w-4 mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <p className="font-medium text-primary-foreground">Horário de atendimento</p>
-                  <p>Segunda a Sexta: 9h às 18h</p>
-                  <p>Sábado: 9h às 15h</p>
+                  <p>Segunda a Sábado:</p>
                 </div>
               </div>
             </div>
