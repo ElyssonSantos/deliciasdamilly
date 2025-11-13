@@ -1,6 +1,6 @@
 import { CartItem } from "@/types/product";
 
-const WHATSAPP_NUMBER = "557999463701"; //
+const WHATSAPP_NUMBER = "5579999463701"; //
 
 export interface OrderFormData {
   name: string;
