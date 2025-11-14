@@ -11,6 +11,7 @@ import docinhodecoco from "@/assets/docinhodecoco.jpg";
 import brigadeirochurros from "@/assets/brigadeirochurros.jpg";
 import empadao from "@/assets/empadão.jpg";
 import biscoitinhocomgoiabada from "@/assets/biscoitocomgoiabada.jpg";
+import coxinhas from "@/assets/coxinhas.jpg";
 
 export const products: Product[] = [
    {
@@ -62,6 +63,13 @@ export const products: Product[] = [
     price: 1.20,
     image: bolinhadequeijo,
   },
+   {
+    id: "coxinhas",
+    name: "Coxinhas Delicias de Frango",
+    description: "Preço em unidade.",
+    price: 1.20,
+    image: coxinhas,
+  },
   {
     id: "empadao",
     name: "Empadão de Frango",
@@ -79,14 +87,14 @@ export const products: Product[] = [
   {
     id: "biscoitinhocomgoiabada",
     name: "Biscoitinho com goiabada",
-    description: Preço por pratinho(11 uni.).",
+    description: "Escolha o seu preferido ! (11 uni.).",
     price: 7,
     image: biscoitinhocomgoiabada,
   },
   {
     id: "coxinhascongeladas",
-    name: "Coxinhas Delícias de Frango Congeladas",
-    description: "Preço a partir de 15 unidades.",
+    name: "Coxinhas Congeladas",
+    description: "Preço a partir de 15 uni.",
     price: 1.20,
     image: coxinhascongeladas,
   },
