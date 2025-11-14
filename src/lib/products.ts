@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: "biscoitinhocomgoiabada",
     name: "Biscoitinho com goiabada",
-    description: "Kit com dois pratinhos",
+    description: Preço por pratinho(11 uni.).",
     price: 7,
     image: biscoitinhocomgoiabada,
   },
