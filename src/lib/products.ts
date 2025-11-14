@@ -85,8 +85,8 @@ export const products: Product[] = [
   },
   {
     id: "coxinhascongeladas",
-    name: "Coxinhas Congeladas",
-    description: "Preço em unidade.",
+    name: "Coxinhas Delícias de Frango Congeladas",
+    description: "Preço a partir de 15 unidades.",
     price: 1.20,
     image: coxinhascongeladas,
   },
