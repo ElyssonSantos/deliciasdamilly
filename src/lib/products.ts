@@ -97,7 +97,7 @@ export const products: Product[] = [
     name: "Mini broa com goiabada",
     description: "Pratinho com 11 unidades.",
     price: 7,
-    image: biscoitinhocomgoiabada,
+    image: broadegoiabada,
   },
   {
     id: "coxinhascongeladas",
