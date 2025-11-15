@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     id: "empadao",
     name: "Empadão de Frango",
-    description: "Feito na marmita (220 ml)",
+    description: "Feito na marmita (220 ml).",
     price: 15,
     image: empadao,
   },
