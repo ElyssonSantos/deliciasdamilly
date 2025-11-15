@@ -11,6 +11,7 @@ import docinhodecoco from "@/assets/docinhodecoco.jpg";
 import brigadeirochurros from "@/assets/brigadeirochurros.jpg";
 import empadao from "@/assets/empadão.jpg";
 import biscoitinhocomgoiabada from "@/assets/biscoitocomgoiabada.jpg";
+import broadegoiabada from "@/assets/broadegoiabada.jpg";
 import coxinhas from "@/assets/coxinhas.jpg";
 
 export const products: Product[] = [
@@ -91,10 +92,17 @@ export const products: Product[] = [
     price: 7,
     image: biscoitinhocomgoiabada,
   },
+   {
+    id: "broadegoiabada",
+    name: "Mini broa com goiabada",
+    description: "Pratinho com 11 unidades.",
+    price: 7,
+    image: biscoitinhocomgoiabada,
+  },
   {
     id: "coxinhascongeladas",
     name: "Coxinhas Congeladas",
-    description: "Preço a partir de 15 uni.",
+    description: "Encomenda a partir de 15 unidades.",
     price: 1.20,
     image: coxinhascongeladas,
   },
