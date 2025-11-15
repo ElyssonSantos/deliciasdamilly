@@ -67,7 +67,7 @@ export const products: Product[] = [
    {
     id: "coxinhas",
     name: "Coxinhas Delicias de Frango",
-    description: "Preço em unidade.",
+    description: "Pedido minimo: 15 unidades.",
     price: 1.20,
     image: coxinhas,
   },
@@ -102,7 +102,7 @@ export const products: Product[] = [
   {
     id: "coxinhascongeladas",
     name: "Coxinhas Congeladas",
-    description: "Encomenda a partir de 15 unidades.",
+    description: "Pedido minimo: 15 unidades.",
     price: 1.20,
     image: coxinhascongeladas,
   },
