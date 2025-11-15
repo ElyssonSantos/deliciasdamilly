@@ -11,7 +11,7 @@ import docinhodecoco from "@/assets/docinhodecoco.jpg";
 import brigadeirochurros from "@/assets/brigadeirochurros.jpg";
 import empadao from "@/assets/empadão.jpg";
 import biscoitinhocomgoiabada from "@/assets/biscoitinhocomgoiabada.jpg";
-import broadegoiabada from "@/assets/broadegoiabada.jpg";
+import broadegoiabada from "@/assets/broadegoiabada.jpeg";
 import coxinhas from "@/assets/coxinhas.jpg";
 
 export const products: Product[] = [
